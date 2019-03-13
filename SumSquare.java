@@ -2,18 +2,18 @@ public class SumSquare
 {
   public static void main(String [] args)
   {
-    int count = 3;
+    int num = 3;
     int square = 0;
-    int newSquare = 0;
-    while (count <= 33)
+    int sumSquare = 0;
+    while (num <= 33)
     {
-      square = (int)Math.pow(count, 2);
-      newSquare += square;
-      System.out.printf("%-10s%-10d%-5s%3d%4s%5d\n", "Cumulation result: ", newSquare, ":", 
-                        count, "*", count);
-      count += 3;
+      square = (int)Math.pow(num, 2);
+      sumSquare += square;
+      System.out.printf("%-10s%-10d%-5s%3d%4s%5d\n", "Cumulation result: ", sumSquare, ":", 
+                        num, "*", num);
+      num += 3;
     }
-   System.out.print("The SUM of squares of multiples of 3 is " + newSquare);
+   System.out.print("The sum of squares of multiples of 3 is " + sumSquare);
   }
 }
 
