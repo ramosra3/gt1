@@ -14,12 +14,12 @@ public class ForeverStamp
       weight = input.nextDouble();
       
       if (weight > 0 && weight <= 1.0)
-        System.out.println("You can use forever stamp. ");
+        System.out.println("You can use forever stamp. \n");
       else if (weight > 1.0)
-        System.out.println("You need additional postage. ");
-      else if (weight < 0)
+        System.out.println("You need additional postage. \n");
+      else if (weight < 0 && weight != -1)
       {
-        System.out.println("Please enter a valid weight. ");
+        System.out.println("Please enter a valid weight. \n");
         System.exit(1);
       }
     }
