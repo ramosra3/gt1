@@ -20,10 +20,11 @@ public class ForeverStamp
       else if (weight < 0 && weight != -1)
       {
         System.out.println("Please enter a valid weight. \n");
-        System.exit(1);
+        System.exit(0);
       }
     }
     
     System.out.println("Good bye!");
+    input.close();
   }
 }
